@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+label{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+}
+a{
+    font-size: 25px !important;
+    color: black;
+    background-color: cyan;
+    width: 400px !important;
+    border-radius: 30px !important;
+}
+a:hover{
+    background-color: orange;
+    color: black;
+    transition-duration: 1000ms;
+    translate: 3s;
+    text-decoration: none;
+}
+.resul{
+    width: 600px;
+    background-color: lightgreen;
+}
+#result{
+    font-size: 23px;
+}
+.resul:hover{
+    background-color: orange;
+    transition-duration: 1000ms;
+}

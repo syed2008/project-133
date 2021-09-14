@@ -1,0 +1,38 @@
+.heading
+{
+font-size: 26px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 23px;
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
+canvas{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+label{
+    font-size: 30px;
+    background-color: green;
+    margin-top: 20px;
+}
+a{
+    float: right;
+    margin: 5px;
+    background-color: black;
+    font-size: 21px !important;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    background-color: red;
+    transition-duration: 1000ms;
+    transform: 2s;
+}
